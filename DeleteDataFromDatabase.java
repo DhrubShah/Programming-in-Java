@@ -8,7 +8,7 @@ public static void main(String[] args) throws Exception {
     Class.forName("com.mysql.jdbc.Driver");
     Connection cn=DriverManager.getConnection(url, uname, psd);
     Statement st=cn.createStatement();
-    String q="Delete from Student Where Faculty ='IT'";
+    String q="Delete from Student Where Faculty ='SE'";
     int i=st.executeUpdate(q);
     System.out.println("Number of data that deleted :"+i);
     cn.close();
