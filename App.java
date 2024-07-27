@@ -36,9 +36,9 @@ class Teacher extends App{
 }
 class Test{
     public static void main(String[] args) {
-        App a=new App("Hemraj",06,6969);
+        App a=new App("Dhrub",10,9999);
     
-        Teacher t=new Teacher("DOD", 60, 6969, 5);
+        Teacher t=new Teacher("DOD", 50, 9999, 10);
         System.out.println(a.getDetails());
         System.out.println(t.getDetails());
     }
